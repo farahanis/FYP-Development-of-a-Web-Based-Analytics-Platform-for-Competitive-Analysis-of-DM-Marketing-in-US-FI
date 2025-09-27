@@ -24,7 +24,7 @@ if "authenticated" not in st.session_state:
 #######################################
 # DATA PATH
 #######################################
-DATA_PATH = "/Users/nurfarahanisbintikhadir/Downloads/Final Year Project/Data/Cleaned_DM US Financial Institutions Dataset.xlsx"
+DATA_PATH = "Data/Cleaned_DM US Financial Institutions Dataset.xlsx"
 if not os.path.exists(DATA_PATH):
     st.error(f"Data file not found at {DATA_PATH}")
     st.stop()
